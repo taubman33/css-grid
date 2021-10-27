@@ -1,13 +1,12 @@
-# css-grid
+# CSS Grid
 
 
 ## The Holy Grail Layout
 
-![holy grail layout]
 
 
-> A layout so holy,
-> [it has its own Wikipedia article](<https://en.wikipedia.org/wiki/Holy_Grail_(web_design)>).
+
+A layout so holy, [it has its own Wikipedia article](<https://en.wikipedia.org/wiki/Holy_Grail_(web_design)>).
 
 This is something you know well, even if you don't recognize the term. It
 describes a webpage with a header, footer, and three columns: a wide "main"
@@ -58,28 +57,11 @@ sizes of your choosing, and then specify how many rows and columns each `cell`
 takes up. Sizing can be fixed, or dynamic, allowing you to create modern
 looking, versatile websites.
 
-_Example of **flexbox** layout_
 
-![flex layout example](assets/flex-layout-ex.png)
+> Grid items are aligned (rather than filling up the available space), and cells can take up multiple rows or columns
 
-_example of **grid** layout_
 
-![grid layout example](assets/grid-layout-ex.png)
-
-> Notice that the grid items are aligned (rather than filling up the available
-> space) and that cells can take up multiple rows or columns
-
-## You Do: Explore the source code
-
-Let's take a few minutes to
-[explore this web app](https://www.inprnt.com/discover/) built with Grid layout.
-
-> This site was built by a former GA student using CSS Grid, Flexbox, and React.
-
-There are a few ways to implement css grid. I'll show you the steps of how I
-like to do it.
-
-Feel free to code along in codepen.
+We can make this in a regular HTML & CSS file, or just play around in Codepen
 
 1. To start, you must have a _container_ (or _parent_) element, with at least
    one _nested_ (or _child_) elements inside.
@@ -138,7 +120,7 @@ at column 1.
 
 We could also write `grid-row: 1;` for short, if your element only spans 1 row.
 
-### You do: Griddle me this
+### Griddle me this
 
 Now let's follow along and try to make our _holy grail_ website design using
 Grid layout. We will need a header, a footer, two side columns, and a main
@@ -148,11 +130,9 @@ section. The starter code has been set up for you
 Using the grid concepts we just learned, see if you can spend a few minutes
 getting the holy grail layout built.
 
-> Try it! Don't read ahead! We'll go over it next.
+ 
 
-### We do: Griddle me this 
-
-Now let's add our `grid-template` code to our parent element.
+Using `grid-template` code to our parent element.
 
 ```css
 body {
@@ -219,3 +199,4 @@ footer {
 Solution on [codepen](https://codepen.io/jme11/pen/OJVaywa)
 
 
+Feel free to use this as a template for any future projects you work in. This is a worldwide standard in responsive design and (especially when changing up those px measurements) should look good on any sized device. 
